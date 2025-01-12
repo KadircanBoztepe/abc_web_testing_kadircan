@@ -1,0 +1,7 @@
+# Login with id <id>, passoword <password>, and browsers <browsers>
+* Open <browsers> and get "https://catchylabs-webclient.testinium.com/"
+* Type <id> into "login_page_username_input" element
+* Type <password> into "login_page_password_input" element
+* Click on "login_page_login_button"
+
+

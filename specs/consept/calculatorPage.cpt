@@ -1,0 +1,126 @@
+# Hesap Makinesi Uzerinde Yatirim Hesaplamasi Yapilir
+* Click on "calculator_page_zero_button"
+* Click on "calculator_page_comma_button"
+* Click on "calculator_page_zero_button"
+* Click on "calculator_page_five_button"
+* Click on "calculator_page_multiply_button"
+* Click on "calculator_page_one_button"
+* Click on "calculator_page_result_button"
+* Click on "calculator_page_multiply_button"
+* Click on "calculator_page_one_button"
+* Click on "calculator_page_zero_button"
+* Click on "calculator_page_zero_button"
+* Click on "calculator_page_result_button"
+* Get result with "calculator_page_result_text" and compare with "105"
+
+
+# Hesap Makinesi Uzerinde Aylik Butce Planlamasi Yapilir
+* Send "1000" number to calculator
+* Click on "calculator_page_subtract_button"
+* Send "200" number to calculator
+* Click on "calculator_page_result_button"
+* Get result with "calculator_page_result_text" and compare with "800"
+
+# Hesap Makinesi Uzerinde Kredi Hesaplamasi Yapilir
+* Send "1" number to calculator
+* Click on "calculator_page_add_button"
+* Send "0,01" number to calculator
+* Click on "calculator_page_result_button"
+* Send "1,01" number to calculator "12" times and multiply
+* Get "calculator_page_result_text" element text and store it Scenario Store with "usResult" key
+* Click on "calculator_page_multiply_button"
+* Send "12" number to calculator
+* Click on "calculator_page_result_button"
+* Get "calculator_page_result_text" element text and store it Scenario Store with "resultFaizCarpan" key
+* Click on "calculator_page_ac_button"
+* Get "usResult" stored value and send number to calculator
+* Click on "calculator_page_subtract_button"
+* Send "1" number to calculator
+* Click on "calculator_page_result_button"
+* Get "calculator_page_result_text" element text and store it Scenario Store with "payda" key
+* Click on "calculator_page_ac_button"
+* Get "resultFaizCarpan" stored value and send number to calculator
+* Click on "calculator_page_divide_button"
+* Get "payda" stored value and send number to calculator
+* Get result with "calculator_page_result_text" and compare with "106,65"
+
+# Hesap Makinesi Uzerinde Kisa Vadeli Yatirim Hesaplamasi Yapilir
+* Send "0,03" number to calculator
+* Click on "calculator_page_multiply_button"
+* Send "0,5" number to calculator
+* Click on "calculator_page_result_button"
+* Click on "calculator_page_add_button"
+* Send "1" number to calculator
+* Click on "calculator_page_result_button"
+* Click on "calculator_page_multiply_button"
+* Send "500" number to calculator
+* Click on "calculator_page_result_button"
+* Get result with "calculator_page_result_text" and compare with "507,5"
+
+
+# Hesap Makinesi Uzerinde Gunluk Gider Takibi Yapilir
+* Send "20" number to calculator
+* Click on "calculator_page_add_button"
+* Send "10" number to calculator
+* Click on "calculator_page_result_button"
+* Click on "calculator_page_add_button"
+* Send "5" number to calculator
+* Click on "calculator_page_result_button"
+* Get result with "calculator_page_result_text" and compare with "35"
+
+# Hesap Makinesi Uzerinde Yıllık Yatırım Hesaplaması Yapilir
+* Send "0,04" number to calculator
+* Click on "calculator_page_add_button"
+* Send "1" number to calculator
+* Click on "calculator_page_result_button"
+* Click on "calculator_page_multiply_button"
+* Send "200" number to calculator
+* Click on "calculator_page_result_button"
+* Get result with "calculator_page_result_text" and compare with "208"
+
+# 36.000 TL'yi ABD Dolarına Çevirme
+* Send "36000" number to calculator
+* Click on "calculator_page_divide_button"
+* Send "33,10" number to calculator
+* Click on "calculator_page_result_button"
+* Get "calculator_page_result_text" element text and store it Scenario Store with "tlToDolarResult" key
+* Click on "calculator_page_multiply_button"
+* Send "0,998" number to calculator
+* Click on "calculator_page_result_button"
+* Get "calculator_page_result_text" element text and store it Scenario Store with "tlToDolarAddedCommisionResult" key
+
+# 36.000 TL'yi Euroya Çevirme
+* Send "36000" number to calculator
+* Click on "calculator_page_divide_button"
+* Send "36,50" number to calculator
+* Click on "calculator_page_result_button"
+* Get "calculator_page_result_text" element text and store it Scenario Store with "tlToEuroResult" key
+* Click on "calculator_page_multiply_button"
+* Send "0,999" number to calculator
+* Click on "calculator_page_result_button"
+* Get "calculator_page_result_text" element text and store it Scenario Store with "tlToEuroAddedCommisionResult" key
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

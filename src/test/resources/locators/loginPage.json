@@ -1,0 +1,27 @@
+{
+  "login_page_username_input": {
+    "locatorType": "CSS_SELECTOR",
+    "locatorValue": "input[placeholder='Username']"
+  },
+  "login_page_password_input": {
+    "locatorType": "CSS_SELECTOR",
+    "locatorValue": "input[placeholder='Password']"
+  },
+  "login_page_login_button": {
+    "locatorType": "XPATH",
+    "locatorValue": "//div[contains(text(), 'Login')]"
+  },
+  "login_page_icon": {
+    "locatorType": "XPATH",
+    "locatorValue": "//img[@class='css-9pa8cd']"
+  },
+  "login_page_invalid_message": {
+    "locatorType": "CSS_SELECTOR",
+    "locatorValue": ".css-146c3p1.r-howw7u.r-1b43r93"
+  },
+  "home_page_icon": {
+    "locatorType": "CSS_SELECTOR",
+    "locatorValue": ".css-175oi2r.r-1i3z66q.r-tuq35u.r-13qz1uu"
+  }
+}
+

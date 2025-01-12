@@ -1,0 +1,10 @@
+{
+  "home_page_open_calculator_button": {
+    "locatorType": "XPATH",
+    "locatorValue": "//div[contains(text(), 'Open Calculator')]"
+  },
+  "home_page_icon": {
+  "locatorType": "CSS_SELECTOR",
+  "locatorValue": ".css-175oi2r.r-1i3z66q.r-tuq35u.r-13qz1uu"
+}
+}

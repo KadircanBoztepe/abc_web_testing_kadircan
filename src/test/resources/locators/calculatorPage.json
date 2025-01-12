@@ -1,0 +1,99 @@
+{
+  "calculator_page_ac_button": {
+    "locatorType": "XPATH",
+    "locatorValue": "//*[@id=\"root\"]/div/div[2]/div[2]/div[1]/div/div/div/div[2]/div[1]"
+  },
+  "calculator_page_plus_minus_button": {
+    "locatorType": "XPATH",
+    "locatorValue": "//*[@id=\"root\"]/div/div[2]/div[2]/div[1]/div/div/div/div[2]/div[2]"
+  },
+  "calculator_page_divide_button": {
+  "locatorType": "XPATH",
+  "locatorValue": "//*[@id=\"root\"]/div/div[2]/div[2]/div[1]/div/div/div/div[2]/div[4]"
+},
+ "calculator_page_multiply_button": {
+  "locatorType": "XPATH",
+  "locatorValue": "//*[@id=\"root\"]/div/div[2]/div[2]/div[1]/div/div/div/div[2]/div[8]"
+},
+  "calculator_page_subtract_button": {
+  "locatorType": "XPATH",
+  "locatorValue": "//*[@id=\"root\"]/div/div[2]/div[2]/div[1]/div/div/div/div[2]/div[12]"
+},
+  "calculator_page_add_button": {
+  "locatorType": "XPATH",
+  "locatorValue": "//*[@id=\"root\"]/div/div[2]/div[2]/div[1]/div/div/div/div[2]/div[16]"
+},
+  "calculator_page_one_button": {
+  "locatorType": "XPATH",
+  "locatorValue": "//*[@id=\"root\"]/div/div[2]/div[2]/div[1]/div/div/div/div[2]/div[13]"
+},
+  "calculator_page_two_button": {
+  "locatorType": "XPATH",
+  "locatorValue": "//*[@id=\"root\"]/div/div[2]/div[2]/div[1]/div/div/div/div[2]/div[14]"
+},
+  "calculator_page_three_button": {
+  "locatorType": "XPATH",
+  "locatorValue": "//*[@id=\"root\"]/div/div[2]/div[2]/div[1]/div/div/div/div[2]/div[15]"
+},
+  "calculator_page_four_button": {
+  "locatorType": "XPATH",
+  "locatorValue": "//*[@id=\"root\"]/div/div[2]/div[2]/div[1]/div/div/div/div[2]/div[9]"
+},
+  "calculator_page_five_button": {
+  "locatorType": "XPATH",
+  "locatorValue": "//*[@id=\"root\"]/div/div[2]/div[2]/div[1]/div/div/div/div[2]/div[10]"
+},
+  "calculator_page_six_button": {
+  "locatorType": "XPATH",
+  "locatorValue": "//*[@id=\"root\"]/div/div[2]/div[2]/div[1]/div/div/div/div[2]/div[11]"
+},
+  "calculator_page_seven_button": {
+  "locatorType": "XPATH",
+  "locatorValue": "//*[@id=\"root\"]/div/div[2]/div[2]/div[1]/div/div/div/div[2]/div[5]"
+},
+  "calculator_page_eight_button": {
+  "locatorType": "XPATH",
+  "locatorValue": "//*[@id=\"root\"]/div/div[2]/div[2]/div[1]/div/div/div/div[2]/div[6]"
+},
+  "calculator_page_nine_button": {
+  "locatorType": "XPATH",
+  "locatorValue": "//*[@id=\"root\"]/div/div[2]/div[2]/div[1]/div/div/div/div[2]/div[7]"
+},
+  "calculator_page_zero_button": {
+  "locatorType": "XPATH",
+  "locatorValue": "//*[@id=\"root\"]/div/div[2]/div[2]/div[1]/div/div/div/div[2]/div[17]"
+},
+  "calculator_page_comma_button": {
+  "locatorType": "XPATH",
+  "locatorValue": "//*[@id=\"root\"]/div/div[2]/div[2]/div[1]/div/div/div/div[2]/div[19]"
+},
+  "calculator_page_result_button": {
+  "locatorType": "XPATH",
+  "locatorValue": "//*[@id=\"root\"]/div/div[2]/div[2]/div[1]/div/div/div/div[2]/div[20]"
+},
+  "calculator_page_result_text": {
+  "locatorType": "XPATH",
+  "locatorValue": "//*[@id=\"root\"]/div/div[2]/div[2]/div[1]/div/div/div/div[1]/div/span"
+},
+  "login_page_username_input": {
+    "locatorType": "CSS_SELECTOR",
+    "locatorValue": "input[placeholder='Username']"
+  },
+  "login_page_password_input": {
+    "locatorType": "CSS_SELECTOR",
+    "locatorValue": "input[placeholder='Password']"
+  },
+  "login_page_login_button": {
+    "locatorType": "XPATH",
+    "locatorValue": "//div[contains(text(), 'Login')]"
+  },
+  "home_page_icon": {
+    "locatorType": "CSS_SELECTOR",
+    "locatorValue": ".css-175oi2r.r-1i3z66q.r-tuq35u.r-13qz1uu"
+  },
+  "home_page_open_calculator_button": {
+    "locatorType": "XPATH",
+    "locatorValue": "//div[contains(text(), 'Open Calculator')]"
+  }
+
+}

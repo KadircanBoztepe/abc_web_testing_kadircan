@@ -1,4 +1,4 @@
-# Hesap Makinesi Uzerinde Yatirim Hesaplamasi Yapilir
+# Investment Calculation is Made on a Calculator
 * Click on "calculator_page_zero_button"
 * Click on "calculator_page_comma_button"
 * Click on "calculator_page_zero_button"
@@ -14,14 +14,14 @@
 * Get result with "calculator_page_result_text" and compare with "105"
 
 
-# Hesap Makinesi Uzerinde Aylik Butce Planlamasi Yapilir
+# Monthly Budget Planning Can Be Done on a Calculator
 * Send "1000" number to calculator
 * Click on "calculator_page_subtract_button"
 * Send "200" number to calculator
 * Click on "calculator_page_result_button"
 * Get result with "calculator_page_result_text" and compare with "800"
 
-# Hesap Makinesi Uzerinde Kredi Hesaplamasi Yapilir
+# Loan Calculation is Made on a Calculator
 * Send "1" number to calculator
 * Click on "calculator_page_add_button"
 * Send "0,01" number to calculator
@@ -44,7 +44,7 @@
 * Get "payda" stored value and send number to calculator
 * Get result with "calculator_page_result_text" and compare with "106,65"
 
-# Hesap Makinesi Uzerinde Kisa Vadeli Yatirim Hesaplamasi Yapilir
+# Short-Term Investment Calculation Can Be Made on a Calculator
 * Send "0,03" number to calculator
 * Click on "calculator_page_multiply_button"
 * Send "0,5" number to calculator
@@ -58,7 +58,7 @@
 * Get result with "calculator_page_result_text" and compare with "507,5"
 
 
-# Hesap Makinesi Uzerinde Gunluk Gider Takibi Yapilir
+# Daily Expenses Can Be Tracked Using a Calculator
 * Send "20" number to calculator
 * Click on "calculator_page_add_button"
 * Send "10" number to calculator
@@ -68,7 +68,7 @@
 * Click on "calculator_page_result_button"
 * Get result with "calculator_page_result_text" and compare with "35"
 
-# Hesap Makinesi Uzerinde Yıllık Yatırım Hesaplaması Yapilir
+# Annual Investment Calculation Can Be Made Using a Calculator
 * Send "0,04" number to calculator
 * Click on "calculator_page_add_button"
 * Send "1" number to calculator
@@ -78,7 +78,7 @@
 * Click on "calculator_page_result_button"
 * Get result with "calculator_page_result_text" and compare with "208"
 
-# 36.000 TL'yi ABD Dolarına Çevirme
+# Converting 36,000 TL to US Dollars
 * Send "36000" number to calculator
 * Click on "calculator_page_divide_button"
 * Send "33,10" number to calculator
@@ -89,7 +89,7 @@
 * Click on "calculator_page_result_button"
 * Get "calculator_page_result_text" element text and store it Scenario Store with "tlToDolarAddedCommisionResult" key
 
-# 36.000 TL'yi Euroya Çevirme
+# Converting 36,000 TL to Euro
 * Send "36000" number to calculator
 * Click on "calculator_page_divide_button"
 * Send "36,50" number to calculator

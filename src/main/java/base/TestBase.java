@@ -83,4 +83,10 @@ public class TestBase {
         log.info("=========================================================================" + "\r\n");
        DriverManager.getInstances().quitDriver();
     }
+    @AfterSuite
+    public void afterSuite(ExecutionContext context) {
+        ExtentReportUtil.flushReport();
+        String scenarioName = context.getCurrentScenario().getName();
+
+    }
 }
